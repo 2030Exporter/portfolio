@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: skyblue;
+    font-size: 120%;
+    font-family: 'Helvetica', cursive, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+article {
+    justify-content: center;
+    text-align: center;   
+}
+nav ul li{
+    text-decoration: none;
+    text-align: center;
+    list-style-type: none;
+    float: left;
+    justify-content: space-between;
+    padding: 1%;
+}
+a{
+    text-decoration: none;
+}
+table {
+    margin: 1%;
+    padding: 1%;
+    border: dashed 2px lightseagreen;
+    text-align: center;
+    justify-content: center;
+}
+label{
+    line-height: 2%;
+
+}
+form input{
+    height: 120%;
+    width: 60%;
+    padding: 15px 10px 10px;
+    background-color: rgb(16, 91, 110);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+@keyframes image {
+    0%   {background-color:rgb(36, 89, 133); left:0px; top:0px;}
+    25%  {background-color:rgb(180, 180, 33); left:200px; top:0px;}
+    50%  {background-color:rgb(52, 52, 105); left:200px; top:200px;}
+    75%  {background-color:rgb(28, 138, 28); left:0px; top:200px;}
+    100% {background-color:rgb(194, 47, 47); left:0px; top:0px;}
+}
+img {
+    height: 1%;
+    width: 20%;
+    border-radius: 0 -40px;
+    justify-content: center;
+    float: left;
+    margin: 5%;
+    padding: 1%;
+    border-radius: 60%;
+    position: relative;
+    animation-name: image;
+    animation-duration: 4s;
+}
+a :link{
+    color: rgb(49, 156, 160);
+}
+a :hover {
+    color: rgb(17, 19, 150);
+}
+a :active {
+    color: rgb(25, 105, 65);
+}
+#button {
+    border-radius: 10px;
+    background-color: royalblue;
+    height: 40px;
+    width: 60px;
+}
